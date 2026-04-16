@@ -1,21 +1,53 @@
-# Customer-Churn-Prediction
-End-to-end Customer Churn Prediction System with ML and Streamlit deployment
+# 🔮 Customer Churn Prediction System
 
-# Customer Churn Prediction App
+## 📌 Overview
+This project is an end-to-end Machine Learning application that predicts whether a customer is likely to churn based on various behavioral and service-related features. The model is deployed using Streamlit, allowing users to input customer details and receive real-time predictions along with churn probability.
 
-## Overview
-This project predicts whether a customer will churn using a machine learning model.
+---
 
-## Features
-- Streamlit web app
-- Real-time prediction
-- Probability output
+## 🚀 Features
+- Interactive web application built with Streamlit  
+- Real-time churn prediction  
+- Displays churn probability score  
+- Handles categorical features using One-Hot Encoding  
+- Uses feature scaling for improved model performance  
 
-## Tech Stack
-- Python
-- Scikit-learn
-- Streamlit
+---
 
-## How to Run
-```bash
-streamlit run app.py
+## 🧠 Problem Statement
+Customer churn is a major challenge for businesses. Identifying customers who are likely to leave helps companies take proactive actions to retain them and reduce revenue loss.
+
+---
+
+## 📊 Features Used
+- Tenure  
+- Monthly Charges  
+- Total Charges  
+- Contract Type  
+- Internet Service  
+- Payment Method  
+- Customer demographics (Senior Citizen, Partner, Dependents)  
+- Services (Phone, Tech Support, Online Security, Streaming, etc.)  
+
+---
+
+## ⚙️ Tech Stack
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Streamlit  
+- Joblib  
+
+---
+
+## 🔧 Machine Learning Workflow
+1. Data Cleaning  
+2. Feature Engineering  
+3. One-Hot Encoding of categorical variables  
+4. Feature Scaling using StandardScaler  
+5. Model Training and Hyperparameter Tuning  
+6. Model Evaluation (Accuracy, Precision, Recall, ROC-AUC)  
+7. Model Saving using Joblib  
+8. Deployment using Streamlit  
+
