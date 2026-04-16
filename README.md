@@ -51,3 +51,6 @@ Customer churn is a major challenge for businesses. Identifying customers who ar
 7. Model Saving using Joblib  
 8. Deployment using Streamlit  
 
+# Run the model and Application 
+## 🌐 Live Demo
+https://customer-churn-prediction-ffb3pveyxphwwqrfmzmpwl.streamlit.app/
